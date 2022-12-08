@@ -1,5 +1,7 @@
 const express=require("express");
 const app=express();
-app.listen(process.env.PORT||3000,function(){
-    console.log("server running port 3000")
-})
+as.get("/", (req, res) =>
+  res.send(`Server Active`)
+);
+app.listen(process.env.PORT||3000
+)
